@@ -12,8 +12,7 @@ final class Main {
     private static Logger LOG = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
 
 
-    private Main() throws Exception {
-
+    private Main() {
 
         LOG.info("java version: {}", System.getProperty("java.version"));
     }

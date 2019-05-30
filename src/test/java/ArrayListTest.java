@@ -12,6 +12,7 @@ public class ArrayListTest {
     @Test
     public void testList() {
 
+        @SuppressWarnings("unchecked")
         List<Integer> list = mock(LinkedList.class);
         list.add(1);
         list.add(2);
