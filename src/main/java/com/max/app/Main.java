@@ -1,15 +1,19 @@
 package com.max.app;
 
 
-import com.max.app.api.User;
-
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class Main {
 
+
+    private static final Logger LOG = LoggerFactory.getLogger(Main.class);
+
     public static void main(String[] args) {
 
-        var user = new User("Maksym");
+        //TODO:
 
-        System.out.println(user.getName());
+        System.out.printf("Main done. java version %s%n", System.getProperty("java.version"));
     }
+
 }
